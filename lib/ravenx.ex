@@ -129,7 +129,6 @@ defmodule Ravenx do
   def available_strategies do
     bundled_strategies = [
       slack: Ravenx.Strategy.Slack,
-      email: Ravenx.Strategy.Email,
       dummy: Ravenx.Strategy.Dummy
     ]
 
